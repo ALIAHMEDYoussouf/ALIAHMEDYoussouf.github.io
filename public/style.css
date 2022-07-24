@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.6rem;
+    color:white;
+    align-items: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+li{
+    font-size: 2rem;
+    color:white;
+}
+.main-head{
+    background: black;
+    color: white;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+nav ul{
+    min-height: 10vh;
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    text-align: left;
+}
+nav ul li{
+  
+    text-align: left;
+}
+#logo{
+    align-items: center;
+    flex: 1 1 40rem;   
+}
+body{
+    background-color: black;
+}
+.main .card .content-img img{
+    
+    height: 400px;
+    width: 500px;
+    margin-top: 5px;
+    justify-content: end;
+    position:absolute;
+    left: 750px;
+    
+    
+}
+.main .card .content-info{
+
+    color: white;
+    width: 700px;
+    position:absolute;
+    left: 100px;
+   top: 300px;
+   
+   
+}
+.main .card .content-info p{
+
+    margin-top: 3%;
+    text-size-adjust: 10px;
+    size: 100px;
+   
+   
+}
+.main {
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.main .card .content-info{
+
+    color: white;
+    width: 700px;
+    position:absolute;
+    left: 100px;
+   top: 300px;
+   
+}
+.main {
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.main2 {
+    
+    background-color: black;
+}
+.main .card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+   
+}
+.main2 .card2{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+}
+.main .card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+   
+}
+.main .card .content-img2 img{
+    
+    height: 40px;
+    width: 50px;
+    margin-top: 5px;
+    justify-content: end;
+    position:absolute;
+    left: 890px;
+    top: 465px;
+    background-color: black;
+    padding: 22px;
+    flex: 0 0 30%;
+   
+    
+    
+}
+
+.content-info2 h2{
+    
+    
+    display: flex;
+}
+
+.content-info2{
+    position:absolute;
+    left: 960px;
+    top: 470px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+
+}
+#rond{
+    border-radius: 50%;
+}
+.footer{
+    position: absolute;
+    margin:100px;
+    text-align:center;
+    padding:20px;
+    color: white;
+    top: 520px;
+    left: 450px;
+}
